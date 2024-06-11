@@ -1,0 +1,52 @@
+title - this is the input stream for a planetary nebula
+//
+// the double slash is one format for comments,
+// set the temperature of the central star
+blackbody, temp = 100000K
+//
+// set the total luminosity (erg / s) of the central star
+luminosity total 38
+//
+// this sets “typical” PN abundances, with grains
+element Lithium off
+element Beryllium off
+element Boron  off
+element Carbon off
+element Nitrogen off
+element Oxygen off
+element Fluorine  off
+element Neon off
+element Sodium off
+element Magnesium off
+element Aluminium off
+element Silicon off
+element Phosphor off
+element Sulphur off
+element Chlorine off
+element Argon off
+element Potassium off
+element Calcium off
+element Scandium  off
+element Titanium off
+element Vanadium off
+element Chromium off
+element Manganese off
+element Iron off
+element Cobalt off
+element Nickel off
+element Copper off
+element Zinc  off
+//
+// log of starting radius in cm
+radius inner=17, outer=17.3
+//
+// log of hydrogen density - cm^-3
+// constant H density is done by default
+hden 4
+//
+// this is a sphere with large covering factor
+sphere
+//
+//
+save overview last "oradius_17.3.ovr"
+save continuum last "oradius_17.3.con" units eV

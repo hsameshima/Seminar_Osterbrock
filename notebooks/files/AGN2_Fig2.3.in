@@ -1,0 +1,36 @@
+blackbody, temp = 4e4K
+Q(h) 49.0
+hden 1
+radius 11.84
+c staring radius is 10 * R_sun
+sphere
+element Helium off
+element Lithium off
+element Beryllium off
+element Boron  off
+element Carbon off
+element Nitrogen off
+element Oxygen off
+element Fluorine  off
+element Neon off
+element Sodium off
+element Magnesium off
+element Aluminium off
+element Silicon off
+element Phosphor off
+element Sulphur off
+element Chlorine off
+element Argon off
+element Potassium off
+element Calcium off
+element Scandium  off
+element Titanium off
+element Vanadium off
+element Chromium off
+element Manganese off
+element Iron off
+element Cobalt off
+element Nickel off
+element Copper off
+element Zinc  off
+save overview last "AGN2_Fig2.3.ovr"

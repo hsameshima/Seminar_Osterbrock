@@ -1,0 +1,24 @@
+title - this is the input stream for a planetary nebula
+//
+// the double slash is one format for comments,
+// set the temperature of the central star
+blackbody, temp = 100,000K
+//
+// set the total luminosity (erg / s) of the central star
+luminosity total 38
+//
+// this sets “typical” PN abundances, with grains
+abundances planetary nebula
+//
+// log of starting radius in cm
+radius 17
+//
+// log of hydrogen density - cm^-3
+// constant H density is done by default
+hden 4
+//
+// this is a sphere with large covering factor
+sphere
+//
+//
+save overview last "AGN2_Fig2.6.ovr"
