@@ -1,0 +1,17 @@
+---
+title: "Astrophysics of Gaseous Nebulae and Active Galactic Nuclei"
+about:
+  template: marquee
+  image: agnagn.jpeg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+- Section 1 General Introduction
+- Section 2 Photoionization Equilibrium
+- [Section 3 Thermal Equilibrium](./Section03/)
